@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.rounded {
+    width: 230px;
+}
+
+.pokedex-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 18px;
+    padding: 0px 10px;
+}
+
+.pokemon-card{
+    display: flex;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+
+
+.pokemon-type{
+    display: flex;
+}
+
+.pokemon-type-text{
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    padding: 5px 5px 5px 5px;
+}
+
+.card-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-botton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokemon-img-container{
+    padding: 0px 5px;
+}
+
+.card-top h3{
+    text-transform: capitalize;
+    float: inline-end;
+}
+
+.Paginacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.not-found-text {
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 20px;
+}
+
+.button-favorite {
+    background-color: transparent;
+}
+
+.img-click-left{
+    padding: 20px;
+}
+.img-click-right{
+    padding: 20px;
+}
+
+.Click-Left {
+
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;;
+}
+.Click-Right {
+
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;;
+}
